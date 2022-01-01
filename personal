@@ -1,0 +1,13 @@
+:bind ZZ composite sanitise tridactyllocal tridactylsync
+
+" Autocontainers
+" 004:ComputerScience
+autocontain -s udcsummary\.info 004:ComputerScience
+" 64:Household
+autocontain -s casamazza\.duckdns\.org 64:Household
+autocontain -s tuya\.com 64:Household
+autocontain -s alexa\.amazon\.com 64:Household
+autocontain -s sdeveloper\.amazon\.com 64:Household
+
+" For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
+" vim: set filetype=tridactyl
