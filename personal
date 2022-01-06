@@ -9,5 +9,8 @@ autocontain -s tuya\.com 64:Household
 autocontain -s alexa\.amazon\.com 64:Household
 autocontain -s developer\.amazon\.com 64:Household
 
+" Search Engine
+set searchengine duckduckgo
+
 " For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
 " vim: set filetype=tridactyl
