@@ -1,5 +1,42 @@
 :bind ZZ composite sanitise tridactyllocal tridactylsync
 
+" Create containers
+containercreate 004:ComputerScience green circle
+containercreate 005:Management green circle
+containercreate 1:Phylosophy green circle
+containercreate 2:Religion green circle
+containercreate 3:SocialSciences green circle
+containercreate 32:Politics green circle
+containercreate 33:Economy green circle
+containercreate 34:Law green circle
+containercreate 5:Science green circle
+containercreate 51:Mathematics green circle
+containercreate 52:Astronomy green circle
+containercreate 53:Physics green circle
+containercreate 54:Chemistry green circle
+containercreate 55:EarthSciences green circle
+containercreate 57:Biology green circle
+containercreate 58:Botany green circle
+containercreate 59:Zoology green circle
+containercreate 6:AppliedSciences green circle
+containercreate 64:Household green circle
+containercreate 69:Building green circle
+containercreate 7:Recreation green circle
+containercreate 72:Architecture green circle
+containercreate 75:Painting green circle
+containercreate 77:Photography green circle
+containercreate 78:Music green circle
+containercreate 79:Entertainment green circle
+containercreate 791:Cinema green circle
+containercreate 792:Theatre green circle
+containercreate 793:SocialEntertainment green circle
+containercreate 794:BoardGames green circle
+containercreate 796:Sport green circle
+containercreate 8:Language green circle
+containercreate 9:GeographyHistory green circle
+containercreate 91:Geography green circle
+containercreate 94:History green circle
+
 " Autocontainers
 " 004:ComputerScience
 autocontain -s udcsummary\.info 004:ComputerScience
