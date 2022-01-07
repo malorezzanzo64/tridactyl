@@ -2,6 +2,7 @@
 
 " Create containers
 containercreate 004:ComputerScience green circle
+containercreate 004.6:Data green circle
 containercreate 005:Management green circle
 containercreate 1:Philosophy green circle
 containercreate 2:Religion green circle
@@ -39,7 +40,7 @@ containercreate 94:History green circle
 
 " Autocontainers
 " 004:ComputerScience
-autocontain -s udcsummary\.info 004:ComputerScience
+autocontain -s udcsummary\.info 004.6:Data
 " 64:Household
 autocontain -s casamazza\.duckdns\.org 64:Household
 autocontain -s tuya\.com 64:Household
