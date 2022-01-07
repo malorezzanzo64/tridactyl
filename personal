@@ -3,7 +3,7 @@
 " Create containers
 containercreate 004:ComputerScience green circle
 containercreate 005:Management green circle
-containercreate 1:Phylosophy green circle
+containercreate 1:Philosophy green circle
 containercreate 2:Religion green circle
 containercreate 3:SocialSciences green circle
 containercreate 32:Politics green circle
