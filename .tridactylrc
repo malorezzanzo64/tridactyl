@@ -1,6 +1,14 @@
 :bind ZZ composite sanitise tridactyllocal tridactylsync
 
 " Create containers
+containercreate -056.2:Health fingerprint red
+containercreate -056.3:Intelligence fingerprint red
+containercreate -057.65:Householder fingerprint red
+containercreate -057.68:Traveller fingerprint red
+containercreate -057.8:Education fingerprint green
+containercreate -057.83:Autodidact fingerprint red
+containercreate -057.87:Student fingerprint red
+containercreate -059.2:GroupsParties fingerprint blue
 containercreate 004:ComputerScience green circle
 containercreate 004.6:Data green circle
 containercreate 005:Management green circle
