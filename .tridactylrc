@@ -60,6 +60,8 @@ autocontain -s tuya\.com 64:Household
 autocontain -s alexa\.amazon\.com 64:Household
 autocontain -s developer\.amazon\.com 64:Household
 
+seturl ^https?://(www.)?tinkercad\.com disable true
+
 " Search Engine
 set searchengine duckduckgo
 
