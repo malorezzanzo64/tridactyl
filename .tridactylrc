@@ -60,7 +60,7 @@ autocontain -s udcsummary\.info 004.6:Data
 " 004.92:ComputerGraphics
 autocontain -s tinkercad\.com 004.92:ComputerGraphics
 " 64:Household
-autocontain -s 192\.168\.[0-9]+\.[0-9]+ 64:Household
+autocontain -s 192\.168\.[0-9]+\.[0-9]+(:[0-9]+)?.* 64:Household
 autocontain -s casamazza\.duckdns\.org 64:Household
 autocontain -s (homeassistant|ha)\.malorezzanzo\.com 64:Household
 autocontain -s (nextcloud|nc)\.malorezzanzo\.com 64:Household
