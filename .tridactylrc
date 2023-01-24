@@ -1,6 +1,7 @@
 :bind ZZ composite sanitise tridactyllocal tridactylsync
 
 " Create containers
+containercreate Personal blue fingerprint
 containercreate -056.2:Health red fingerprint
 containercreate -056.3:Intelligence red fingerprint
 containercreate -057.65:Householder red fingerprint
@@ -52,15 +53,19 @@ containercreate 91:Geography green circle
 containercreate 94:History green circle
 
 " Autocontainers
+* Personal
+autocontain -s chat\.openai\.com Personal
 " 004:ComputerScience
 autocontain -s udcsummary\.info 004.6:Data
 " 004.92:ComputerGraphics
 autocontain -s tinkercad\.com 004.92:ComputerGraphics
 " 64:Household
 autocontain -s casamazza\.duckdns\.org 64:Household
+autocontain -s (homeassistant|ha)\.malorezzanzo\.org 64:Household
+autocontain -s (nextcloud|nc)\.malorezzanzo\.org 64:Household
 autocontain -s tuya\.com 64:Household
 autocontain -s alexa\.amazon\.com 64:Household
-autocontain -s developer\.amazon\.com 64:Household
+"autocontain -s developer\.amazon\.com 64:Household
 
 seturl ^https?://(www.)?tinkercad\.com disable true
 
