@@ -30,6 +30,11 @@ containercreate 57:Biology green circle
 containercreate 58:Botany green circle
 containercreate 59:Zoology green circle
 containercreate 6:AppliedSciences green circle
+containercreate 62:Technology green circle
+containercreate 621:MechanicalElectricalEngineering green circle
+containercreate 629:TransportEngineering green circle
+containercreate 64:Housekeeping green circle
+containercreate 657:Accountancy green circle
 containercreate 61:MedicalSciences green circle
 containercreate 616.31:Dentistry green circle
 containercreate 64:Household green circle
